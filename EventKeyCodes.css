@@ -6,10 +6,11 @@ body {
     width: 100vw;
     height: 100vh;
     background-color: blanchedalmond;
+}
+main {
     display: flex;
     justify-content: center;
     align-items: center;
-    box-sizing: border-box;
 }
 h1 {
     width: 85vw;
