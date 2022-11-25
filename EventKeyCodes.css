@@ -19,3 +19,9 @@ h1 {
     bottom: 10vh;
     text-align: center;
 }
+@media only screen and (min-width: 800px) {
+    h1 {
+        width: auto;
+        bottom: 5vh;
+    }
+}
