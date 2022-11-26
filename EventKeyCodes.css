@@ -33,6 +33,10 @@ h1 {
     display: flex;
     justify-content: space-around;
 }
+p {
+    border: 2pt solid hotpink;
+    padding: 2rem;
+}
 @media only screen and (min-width: 800px) {
     h1 {
         width: auto;
