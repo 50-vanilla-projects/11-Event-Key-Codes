@@ -28,14 +28,26 @@ h1 {
 }
 .display {
     width: 85vw;
-    border: 1pt solid black;
     padding: 1rem 2rem;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
 }
-p {
-    border: 2pt solid hotpink;
-    padding: 2rem;
+.display-group {
+    width: 80px;
+    margin: 20px;
+    text-align: center;
+    font-size: 16pt;
+    font-weight: bold;
+    border: 1pt solid black;
+    position: relative;
+}
+.label {
+    width: 100%;
+    text-align: center;
+    font-size: 14pt;
+    font-weight: normal;
+    position: absolute;
+    top: -45px;
 }
 @media only screen and (min-width: 800px) {
     h1 {
