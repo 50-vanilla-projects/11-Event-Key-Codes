@@ -1,10 +1,9 @@
-const input = document.querySelector("input");
 const display = document.querySelector(".display");
 const keyDisplay = document.querySelector(".key");
 const codeDisplay = document.querySelector(".code");
 let count = 0;
 
-input.addEventListener("keydown", showKeyCode);
+window.addEventListener("keydown", showKeyCode);
 
 function showKeyCode(event) {
     if (count == 0) {
