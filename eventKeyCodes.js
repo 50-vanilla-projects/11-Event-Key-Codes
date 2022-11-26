@@ -1,4 +1,5 @@
 const input = document.querySelector("input");
+const display = document.querySelector(".display");
 
 input.addEventListener("keydown", showKeyCode);
 
