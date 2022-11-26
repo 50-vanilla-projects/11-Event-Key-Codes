@@ -24,7 +24,7 @@ h1 {
     text-align: center;
 }
 .hidden {
-    display: none;
+    opacity: 0;
 }
 .display {
     width: 85vw;
