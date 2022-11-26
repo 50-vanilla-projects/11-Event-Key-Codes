@@ -22,6 +22,9 @@ h1 {
     bottom: 10vh;
     text-align: center;
 }
+.hidden {
+    display: none;
+}
 .display {
     width: 85vw;
     border: 1pt solid black;
